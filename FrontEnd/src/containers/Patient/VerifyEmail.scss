@@ -1,0 +1,32 @@
+.verify-booking-container {
+   .content-verify {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border: none;
+      outline: none;
+      background-color: #fff;
+      text-transform: uppercase;
+      color: red;
+      font-size: 36px;
+      margin-bottom: 30px;
+      text-align: center;
+      .confirm {
+      }
+      .thank {
+        margin-top: 10px;
+      }
+      .error {
+      }
+      .back-home {
+         font-size: 20px;
+         padding: 10px;
+         background-color: orange;
+         color: white;
+         font-weight: bold;
+         text-decoration: none;
+         cursor: pointer;
+      }
+   }
+}

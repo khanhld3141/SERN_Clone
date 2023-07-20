@@ -1,0 +1,135 @@
+{
+   "home-header": {
+      "speciality": "Medical Specialty",
+      "searchDoctor": "Find a doctor by specialty",
+      "healthy-facility": "Medical facilities",
+      "select-room": "Choose a clinic hospital",
+      "doctor": "Doctor",
+      "select-doctor": "Choose a good doctor",
+      "package": "Examination package",
+      "package-all": "General physical examination",
+      "support": "Support",
+      "welcome": "Welcome"
+   },
+   "home-banner": {
+      "title-1": "MEDICAL FOUNDATION",
+      "title-2": "HOLISTIC HEALTH CARE",
+      "chuyen-khoa-1": "Specialist",
+      "chuyen-khoa-2": "Examination",
+      "tu-xa-1": "Telemedicine",
+      "tu-xa-2": " ",
+      "tong-quat-1": "General",
+      "tong-quat-2": "Examination",
+      "xet-nghiem-1": "Medical",
+      "xet-nghiem-2": "Tests",
+      "suc-khoe-1": "Mental",
+      "suc-khoe-2": "Health",
+      "nha-khoa-1": "Dental",
+      "nha-khoa-2": "Examination",
+      "phau-thuat-1": "Anatomical",
+      "phau-thuat-2": "Package",
+      "y-te-1": "Medical",
+      "y-te-2": "Products",
+      "test-sk-1": "Health",
+      "test-sk-2": "Exams"
+   },
+   "menu": {
+      "admin": {
+         "manage-user": "User",
+         "manage-doctor": "Manage Doctor",
+         "manage-admin": "Manage Admin",
+         "crud": "CRUD user",
+         "crud-redux": "CRUD redux",
+         "clinic": "Clinic",
+         "manage-clinic": "Manage Clinic",
+         "specialty": "Specialty",
+         "manage-specialty": "Manage Specialty",
+         "handbook": "Handbook",
+         "manage-handbook": "Manage Handbook"
+      },
+      "doctor": {
+         "manage-schedule": "Manage Doctor's Schedule",
+         "manage-user": "Manage user",
+         "manage-patient":"Manage Schedule Patient"
+
+      },
+      "patient":{
+         "title": "Manage doctor's Patient",
+         "choose-doctor": "Select doctor",
+         "choose-date": "Choose date",
+         "search-info": "Search"
+      }
+   },
+   "manage-user": {
+      "add": "Add a new user",
+      "email": "Email",
+      "password": "Password",
+      "firstName": "First Name",
+      "lastName": "Last name",
+      "phoneNumber": "Phone number",
+      "address": "Address",
+      "gender": "Gender",
+      "roleid": "Role",
+      "position": "Position",
+      "image": "Image",
+      "upload": "Upload",
+      "save": "Save",
+      "edit": "Save as"
+   },
+   "home-page": {
+      "out-standing-doctor": "Outstanding Doctor",
+      "more-info": "More information",
+      "popular-specialty": "Popular Specialty",
+      "video-examination": "Video Examination",
+      "medical-facilities": "Medical Facilities",
+      "handbook": "Handbook"
+   },
+   "manage-schedule": {
+      "title": "Manage doctor's examination plan",
+      "choose-doctor": "Select doctor",
+      "choose-date": "Choose date",
+      "save-info": "Save information",
+      "schedule-examination": "Schedule",
+      "no-schedule": "Today the doctor is full of appointments",
+      "choose": "Choose",
+      "book": "and book(Booking fee)"
+   },
+   "patient": {
+      "title": "Information to book a medical appointment",
+      "fullName": "FullName",
+      "phoneNumber": "Phone number",
+      "email": "Email",
+      "address": "Address",
+      "reason": "Reason for examination",
+      "dateExamination": "Day of the examination",
+      "gender": "Gender",
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "choose-gender": "Choose gender",
+      "more":"More",
+      "less":"Less"
+   },
+   "admin": {
+      "manage-doctor": {
+         "title": "More information for Doctor",
+         "choose-doctor": "Choose a doctor",
+         "introduction": "Introduction information",
+         "save-info": "Save information",
+         "add-info": "Add information",
+         "choose-price": "Choose a price",
+         "choose-province": "Choose a province",
+         "choose-payment": "Choose a payment",
+         "name-clinic": "Name of clinic",
+         "note": "Note",
+         "choose-address-clinic": "Address clinic",
+         "examination-address": "Examination address",
+         "price": "Price: ",
+         "see-detail": "See detail",
+         "hidden": "Hidden",
+         "payment": "The clinic has payment in the form of ",
+         "payment-method": "Cash or Credit card",
+         "choose-specialty": "Choose speciality",
+         "choose-clinic": "Choose clinic"
+      }
+   }
+}

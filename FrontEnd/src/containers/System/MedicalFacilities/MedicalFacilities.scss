@@ -1,0 +1,30 @@
+.manage-clinic-container {
+    margin: 0px 100px;
+    .m-c-title {
+       font-size: 36px;
+       margin: 20px 0px;
+       text-transform: uppercase;
+       text-align: center;
+    }
+    .m-c-input {
+       .input-file {
+          border: none;
+          outline: none;
+ 
+          &.focus {
+             box-shadow: none;
+          }
+       }
+    }
+    .manage-clinic-editor {
+       margin-bottom: 20px;
+    }
+    .btn-save-c{
+     border: none;
+     outline: none;
+     background-color: orange;
+     padding: 5px 10px;
+     margin-bottom: 10px;
+    }
+ }
+ 

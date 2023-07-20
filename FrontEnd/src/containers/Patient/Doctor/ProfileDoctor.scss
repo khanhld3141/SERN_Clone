@@ -1,0 +1,33 @@
+.intro-doctor {
+   width: 75%;
+   display: flex;
+   margin-left: 10px;
+   margin-bottom: 20px;
+   .content-left {
+      width: 20%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+   }
+   .content-right {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      padding-left: 10px;
+      .up {
+         font-size: 27px;
+         font-weight: bold;
+         padding-top: 10px;
+         color: #333333;
+         font-weight: bold;
+      }
+      .down {
+         white-space: pre-wrap;
+         color: #555555;
+         font-size: 13px;
+      }
+   }
+}

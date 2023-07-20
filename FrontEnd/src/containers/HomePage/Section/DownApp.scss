@@ -1,0 +1,57 @@
+.app-container {
+   height: 380px;
+   position: relative;
+   background-color: hsl(0, 0%, 96%);
+   .app-content {
+      height: 370px;
+      width: 600px;
+      display: flex;
+      margin: auto;
+
+      .app-mobile {
+         margin-left: 30px;
+         margin-top: 50px;
+         overflow: hidden;
+      }
+      .information-app {
+         margin-left: 20px;
+
+         .title-header {
+            margin-top: 80px;
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 10px;
+         }
+         .information-select {
+            margin-top: 5px;
+            .icon {
+               color: aqua;
+            }
+            .description {
+               margin-left: 10px;
+               color: #333;
+               font-size: 14px;
+            }
+         }
+         .information-download {
+            margin-top: 30px;
+            margin-bottom: 10px;
+            display: flex;
+            height: 40px;
+            width: 135px;
+            img {
+               width: 135px;
+               height: 40px;
+            }
+         }
+         .website {
+            text-decoration: none;
+            font-size: 13px;
+            font-style: italic;
+            .link{
+                font-weight: bold;
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,21 @@
+.manage-patient-container {
+   width: 100%;
+   .m-s-title {
+      text-transform: uppercase;
+      margin-top: 15px;
+      text-align: center;
+      font-size: 17px;
+      margin-bottom: 15px;
+      font-weight: 600;
+   }
+   .btn-save-patient {
+   }
+   .patient-table {
+   }
+}
+div._loading_overlay_wrapper {
+   position: unset;
+   ._loading_overlay_overlay {
+      z-index: 10000;
+   }
+}

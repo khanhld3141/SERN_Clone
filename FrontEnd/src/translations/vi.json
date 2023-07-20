@@ -1,0 +1,137 @@
+{
+   "home-header": {
+      "speciality": "Chuyên khoa",
+      "searchDoctor": "Tìm bác sĩ theo chuyên khoa",
+      "healthy-facility": "Cơ sở y tế",
+      "select-room": "Chọn bệnh viện phòng khám",
+      "doctor": "Bác sĩ",
+      "select-doctor": "Chọn bác sĩ giỏi",
+      "package": "Gói khám",
+      "package-all": "Khám sức khỏe tổng quát",
+      "support": "Hổ trợ",
+      "welcome": "Xin chào"
+   },
+   "home-banner": {
+      "title-1": "NỀN TẢNG Y TẾ",
+      "title-2": "CHĂM SÓC SỨC KHỎE TOÀN DIỆN",
+      "chuyen-khoa-1": "Khám",
+      "chuyen-khoa-2": "Chuyên khoa",
+      "tu-xa-1": "Khám",
+      "tu-xa-2": "Từ xa",
+      "tong-quat-1": "Khám",
+      "tong-quat-2": "Tổng quát",
+      "xet-nghiem-1": "Xét nghiệm",
+      "xet-nghiem-2": "Y học",
+      "suc-khoe-1": "Sức khỏe",
+      "suc-khoe-2": "Tinh thần",
+      "nha-khoa-1": "Khám",
+      "nha-khoa-2": "Nha khoa",
+      "phau-thuat-1": "Gói",
+      "phau-thuat-2": "Phẩu thuật",
+      "y-te-1": "Sản phẩm",
+      "y-te-2": "Y tế",
+      "test-sk-1": "Bài kiểm tra",
+      "test-sk-2": "Sức khỏe"
+   },
+   "menu": {
+      "admin": {
+         "manage-user": "Người dùng",
+         "manage-doctor": "Quản lí bác sĩ",
+         "manage-admin": "Quản lí admin",
+         "crud": "CRUD user",
+         "crud-redux": "CRUD redux",
+         "clinic": "Phòng khám",
+         "manage-clinic": "Quản lí phòng khám",
+         "specialty": "Chuyên khoa",
+         "manage-specialty": "Quản lí chuyên khoa",
+         "handbook": "Cẩm nang",
+         "manage-handbook": "Quản lí cẩm nang"
+      },
+      "doctor":{
+         "manage-schedule":"Quản lí kế hoạch khám bệnh",
+         "manage-user":"Người dùng",
+         "manage-patient":"Quản lí danh sách bệnh nhân"
+      },
+      "patient":{
+         "title":"Quản lí bệnh nhân của bác sĩ" ,
+         "choose-doctor":"Chọn bác sĩ",
+         "choose-date":"Chọn ngày",
+         "search-info":"Tìm kiếm"
+      }
+   },
+   "manage-user": {
+      "add": "Thêm mới người dùng",
+      "email": "Email",
+      "password": "Mật khẩu",
+      "firstName": "Tên",
+      "lastName": "Họ",
+      "phoneNumber": "Số điện thoại",
+      "address": "Địa chỉ",
+      "gender": "Giới tính",
+      "roleid": "Vài trò",
+      "position": "Chức danh",
+      "image": "Ảnh đại diện",
+      "upload":"Tải ảnh",
+      "save": "Lưu",
+      "edit":"Lưu thay đổi"
+   },
+
+   "home-page":{
+      "out-standing-doctor":"Bác sĩ nổi bật tuần qua",
+      "more-info":"Xem thêm",
+      "popular-specialty":"Chuyên khoa phổ biến",
+      "video-examination":"Khám qua video",
+      "medical-facilities":"Cơ sở y tế nổi bật",
+      "handbook":"Cẩm nang"
+
+   },
+
+   "manage-schedule": {
+     "title":"Quản lí kế hoạch khám bệnh của bác sĩ" ,
+     "choose-doctor":"Chọn bác sĩ",
+     "choose-date":"Chọn ngày",
+     "save-info":"Lưu thông tin",
+     "schedule-examination":"Lịch khám",
+     "no-schedule":"Hôm nay bác sĩ đã kín lịch khám",
+     "choose":"Chọn",
+     "book":"và đặt(Phí đặt lịch 0đ)"
+   },
+   "patient":{
+      "title":"Thông tin đặt lịch khám bệnh",
+      "fullName":"Họ và tên",
+      "phoneNumber":"Số điện thoại",
+      "email":"Email",
+      "address":"Địa chỉ",
+      "reason":"Lí do khám",
+      "dateExamination":"Ngày khám",
+      "gender":"Giới tính",
+      "confirm":"Xác nhận",
+      "cancel":"Hủy",
+      "choose-gender":"Chọn giới tính",
+      "more":"Xem thêm",
+      "less":"Ẩb bớt"
+   },
+   "admin":{
+      "manage-doctor":{
+         "title":"Thêm thông tin cho Bác sĩ",
+         "choose-doctor":"Chọn bác sĩ",
+         "introduction":"Thông tin giới thiệu",
+         "save-info":"Lưu thông tin",
+         "add-info":"Thêm thông tin",
+         "choose-price":"Chọn giá",
+         "choose-province":"Chọn tỉnh thành",
+         "choose-payment":"Chọn phương thức thanh toán",
+         "note":"Ghi chú",
+         "name-clinic":"Tên phòng khám",
+         "choose-address-clinic":"Địa chỉ phòng khám",
+         "examination-address":"Địa chỉ khám",
+         "price":"Giá khám: ",
+         "see-detail":"Xem chi tiết",
+         "hidden":"Ẩn bảng giá",
+         "payment":"Phòng khám có thanh toán bằng hình thức ",
+         "payment-method":"Tiền mặt và Chuyển khoản",
+         "choose-specialty":"Chọn chuyên khoa",
+         "choose-clinic":"Chọn phòng khám"
+      }
+   }
+}

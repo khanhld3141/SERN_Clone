@@ -1,0 +1,55 @@
+.doctor-schedule-container {
+   width: 100%;
+   .all-schedule {
+      width: 100%;
+      select {
+         text-transform: capitalize;
+         color: #337ab7;
+         border: none;
+         border-bottom: 1px #999 solid;
+         font-weight: bold;
+         padding: 3px;
+         outline: none;
+      }
+      .schedule-examination {
+         margin-top: 10px;
+         .icon-schedule {
+         }
+         .examination-content {
+            margin-left: 5px;
+            text-transform: uppercase;
+            font-size: 14px;
+            color: #333;
+            font-weight: bold;
+         }
+      }
+      .schedule-list {
+         margin-top: 20px;
+         flex-direction: column;
+         .schedule-include {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+            .schedule-item {
+               width: 20%;
+               margin-left: 15px;
+               border: none;
+               outline: none;
+               background-color: #fff8ae;
+               padding: 8px 5px;
+               &:hover {
+                  box-shadow: 0px 0px 0px 2px #33b0e3 inset;
+               }
+            }
+            .no-schedule {
+               font-size: 15px;
+               color: #ffc10e;
+               font-weight: bold;
+            }
+         }
+         .book-free {
+         }
+      }
+   }
+}

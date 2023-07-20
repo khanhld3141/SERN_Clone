@@ -1,0 +1,71 @@
+.doctor-extra-info-container {
+   margin-left: 30px;
+
+   .d-e-i-up {
+      padding: 10px 0px;
+      border-bottom: 1px solid #666666;
+      .e-address {
+         text-transform: uppercase;
+         font-weight: bold;
+         font-size: 14px;
+         color: #666666;
+      }
+      .e-clinic {
+         font-weight: bold;
+         margin-top: 7px;
+         font-size: 13px;
+         color: #000000;
+      }
+      .e-detail-add {
+         margin-top: 7px;
+         font-size: 13px;
+         color: #000000;
+      }
+   }
+   .d-e-i-down {
+      margin-top: 20px;
+      .price-info {
+         text-transform: uppercase;
+         font-weight: bold;
+         .more-price-info {
+            text-transform: none;
+            margin-left: 5px;
+            color: #45c3d2;
+            cursor: pointer;
+         }
+      }
+      .price-more {
+         margin-top: 10px;
+         //  padding: 5px 5px;
+         border: 1px solid #666666;
+         background-color: #f8f8f8;
+         color: #666;
+         .title-price {
+            display: flex;
+            justify-content: space-between;
+            .e-price {
+               font-size: 14px;
+               font-weight: bold;
+            }
+            .detail-price{  
+                    align-items: flex-end;
+            }
+         }
+         .content-price {
+            font-size: 12px;
+            padding: 5px 5px;
+            border-bottom: 1px solid #666666;
+         }
+         .payment-price {
+            padding: 4px 3px;
+            background-color: #eee;
+         }
+      }
+      .less-price-info {
+         margin-top: 10px;
+         text-transform: none;
+         color: #45c3d2;
+         cursor: pointer;
+      }
+   }
+}

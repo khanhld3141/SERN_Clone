@@ -1,0 +1,24 @@
+.preview-image-container {
+   height: 50px;
+   display: flex;
+   .label-upload {
+      padding: 5px 5px;
+      background: #ddd;
+      height: 33px;
+      &:hover {
+         background: rgb(173, 171, 171);
+      }
+      .icon {
+         margin-left: 5px;
+      }
+   }
+   .preview-image {
+      margin-left: 5px;
+      height: 33px;
+      flex: 1;
+      border: 1px solid #ddd;
+      background-size: contain;
+      background-repeat: no-repeat;
+      cursor: pointer;
+   }
+}

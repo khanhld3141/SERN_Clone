@@ -1,0 +1,39 @@
+table {
+   font-family: arial, sans-serif;
+   border-collapse: collapse;
+   width: 100%;
+}
+
+td,
+th {
+   border: 1px solid #dddddd;
+   text-align: left;
+   padding: 8px;
+}
+
+.table-manage-user {
+   .btn-edit,
+   .btn-delete {
+      font-size: 22px;
+      border: none;
+      outline: none;
+      background-color: transparent;
+      margin-left: 10px;
+      border-radius: 50%;
+      &:hover {
+         background-color: rgb(227, 221, 221);
+      }
+   }
+   .btn-edit {
+      color: #156265;
+      &:hover {
+         color: #156265;
+      }
+   }
+   .btn-delete {
+      color: rgb(222, 85, 85);
+      &:hover {
+         color: rgb(222, 85, 85);
+      }
+   }
+}

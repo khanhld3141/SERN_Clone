@@ -1,0 +1,39 @@
+.about-container {
+   height: 460px;
+   position: relative;
+   .about-content {
+      height: 370px;
+      width: 1120px;
+      position: absolute;
+      top: 45px;
+      left: 13%;
+
+      .header-title{
+        height: 40px;
+        .header-main-title{
+            font-weight: bold;
+            font-size: 24px;
+        }
+      }
+      .main-content{
+        height: 320px;
+        display: flex;
+        .audio-content{
+            height: 100%;
+        }
+        .news-content{
+            margin: auto;
+
+            .news{
+                height: 50px;
+                width: 360px;
+                img{
+                    background-size: cover;
+                    margin-left: 5px;
+                    width: 30%;
+                }
+            }
+        }
+      }
+   }
+}

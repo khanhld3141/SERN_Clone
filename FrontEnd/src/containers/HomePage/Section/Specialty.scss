@@ -1,0 +1,112 @@
+.section-specialty {
+   height: 330px;
+
+   .specialty-content {
+      width: 1140px;
+      margin: auto;
+
+      .header-title {
+         padding-top: 20px;
+         .header-main-title {
+            font-weight: bold;
+            font-size: 24px;
+         }
+         .more {
+            font-size: 11px;
+            position: absolute;
+            right: 200px;
+            padding: 9px 12px;
+            cursor: pointer;
+            background-color: #ebebeb;
+            &:hover {
+               background-color: #f7d800;
+               color: #fff;
+            }
+         }
+      }
+      .item-carousel {
+         width: 260px !important;
+         height: 200px;
+         margin-top: 30px;
+         margin-left: 20px;
+         cursor: pointer;
+         &:hover {
+            text-decoration: none;
+            color: #45c3d2;
+         }
+         .footer-title {
+            width: 100%;
+            height: 100%;
+            .image {
+               width: 260px;
+               height: 157px;
+               background-size: cover;
+               background-repeat: no-repeat;
+            }
+
+            .main-title {
+               margin-top: 10px;
+            }
+            .sub-title {
+               display: none;
+            }
+         }
+      }
+      .unique.item-carousel {
+         border: 1px solid red;
+         height: 220px;
+
+         .footer-title {
+            .image {
+               border-radius: 50% !important;
+               width: 120px;
+               height: 120px;
+               margin-top: 20px;
+               margin-left: 75px;
+               background-size: cover;
+            }
+
+            .main-title {
+               text-align: center;
+            }
+            .sub-title {
+               display: block !important;
+               text-align: center;
+            }
+         }
+      }
+      .slick-prev {
+         z-index: 2;
+         top: 100px !important;
+         left: -9px !important;
+         &::before {
+            font-size: 50px !important;
+            opacity: 0.8 !important;
+            color: black !important;
+         }
+      }
+      .slick-next {
+         z-index: 2;
+         top: 100px !important;
+         right: 9px !important;
+         &::before {
+            font-size: 50px !important;
+            opacity: 0.8 !important;
+            color: black !important;
+         }
+      }
+      .slick-disabled {
+         display: none !important;
+      }
+   }
+   .specialty-content.content-unique {
+      height: 300px !important;
+      .slick-prev,
+      .slick-next {
+         top: 140px !important;
+      }
+   }
+}
+.bg {
+   background-color: hsl(0, 0%, 96%);
+}
